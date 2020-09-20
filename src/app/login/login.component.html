@@ -1,0 +1,23 @@
+<div class="Block">
+    <Div class="logo">Login</Div>
+    <div class="lable">
+        <label>UserName</label>
+    </div>
+    <div>
+        <input type="text" #uname>
+    </div>
+    
+    <div class="lable">
+        <label>Password</label>
+    </div>
+    <div>
+        <input type="text" #Passw>
+    </div>
+    <div class="button">
+        <button (click)="senddata(uname.value,Passw.value)">Submit</button>
+    </div>  
+</div>
+
+  
+
+

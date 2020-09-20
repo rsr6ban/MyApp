@@ -1,0 +1,21 @@
+.Block{
+padding: 20px;
+width: 180px;
+height: 150px;
+background-color:lightblue;
+}
+
+.lable{
+padding-top: 15px;
+}
+
+.button{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}

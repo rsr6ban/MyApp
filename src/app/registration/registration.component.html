@@ -1,0 +1,48 @@
+<div class="Block">
+    <Div class="logo">Registration</Div>
+
+    <div class="lable">
+        <label>Name</label>
+    </div>
+    <div>
+        <input type="text" #name>
+    </div>
+    <div class="lable">
+        <label>EmailID</label>
+    </div>
+    <div>
+        <input type="text" #mail>
+    </div>
+    <div class="lable">
+        <label>Location</label>
+    </div>
+    <div>
+        <input type="text" #loca>
+    </div>
+    <div class="lable">
+        <label>Pincode</label>
+    </div>
+    <div>
+        <input type="text" #pin>
+    </div>
+
+    <div class="lable">
+        <label>UserName</label>
+    </div>
+    <div>
+        <input type="text" #uname>
+    </div>
+    
+    <div class="lable">
+        <label>Password</label>
+    </div>
+    <div>
+        <input type="text" #Passw>
+    </div>
+
+   
+
+    <div class="button">
+        <button (click)="senddata(name.value,mail.value,loca.value,pin.value,uname.value,Passw.value)">Submit</button>
+    </div>  
+</div>

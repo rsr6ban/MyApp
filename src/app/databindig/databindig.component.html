@@ -1,0 +1,6 @@
+<input *ngIf="flag" type="text" #searchTxt [(ngModel)]="mydata">
+<button (click)="toggle()">Toggle</button>
+{{mydata}}
+<ul *ngFor="let team of iplteams">
+    <li>{{team}}</li>
+</ul>
