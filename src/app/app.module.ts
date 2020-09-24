@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { DatabindigComponent } from './databindig/databindig.component';
-import {FormsModule} from'@angular/forms'
+import {FormsModule} from'@angular/forms';
+import { PageloaderrorComponent } from './pageloaderror/pageloaderror.component'
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {FormsModule} from'@angular/forms'
     AppComponent,
     LoginComponent,
     RegistrationComponent,
-    DatabindigComponent
+    DatabindigComponent,
+    PageloaderrorComponent
   ],
   imports: [
     BrowserModule,
