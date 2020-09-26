@@ -8,7 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { DatabindigComponent } from './databindig/databindig.component';
 import {FormsModule} from'@angular/forms';
-import { PageloaderrorComponent } from './pageloaderror/pageloaderror.component'
+import { PageloaderrorComponent } from './pageloaderror/pageloaderror.component';
+import { HomepageComponent } from './homepage/homepage.component'
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PageloaderrorComponent } from './pageloaderror/pageloaderror.component'
     LoginComponent,
     RegistrationComponent,
     DatabindigComponent,
-    PageloaderrorComponent
+    PageloaderrorComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
